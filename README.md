@@ -2,6 +2,11 @@
 
 ## Android Developer | Java & Kotlin | Firebase | REST APIs | Application Support
 
+[![Android](https://img.shields.io/badge/Android-Developer-3DDC84?logo=android&logoColor=white)](https://developer.android.com/)
+[![Kotlin](https://img.shields.io/badge/Kotlin-1.9%2B-7F52FF?logo=kotlin&logoColor=white)](https://kotlinlang.org/)
+[![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?logo=openjdk&logoColor=white)](https://www.java.com/)
+[![Firebase](https://img.shields.io/badge/Firebase-Analytics%20%26%20Crashlytics-FFCA28?logo=firebase&logoColor=black)](https://firebase.google.com/)
+
 I’m an Android Developer with professional experience building, maintaining, testing, and supporting Android applications using Java and Kotlin.
 
 My experience includes Android SDK, Jetpack components, MVVM/MVC architecture, REST APIs, Firebase, Google Maps, location services, push notifications, local storage, analytics, debugging, release support, and production issue resolution.
@@ -138,6 +143,8 @@ Detailed case studies are organized under `projects/`.
 - [All Smart Tools](projects/all-smart-tools/README.md)
 - [Weather Forecast Alerts](projects/weather-forecast/README.md)
 
+> **Portfolio note:** These project pages describe professional work and publicly available app experience. Employer-owned source code is intentionally not included.
+
 ---
 
 ## 📊 Mobile Analytics
@@ -156,6 +163,22 @@ See [`android/testing-and-debugging.md`](android/testing-and-debugging.md) for t
 
 See [`learning/android-analytics-roadmap.md`](learning/android-analytics-roadmap.md) for the skills I am continuing to develop in Android and mobile analytics.
 
+---
+
+## 🛠️ Portfolio Roadmap
+
+The next stage of this portfolio is focused on demonstrating current, hands-on skills with **small public demo projects** that I can safely share as source code.
+
+Planned demos:
+
+1. **Android Analytics Demo** — Firebase Analytics + GTM-style event tracking, event naming, parameters, and behavioral reporting concepts.
+2. **Application Support Diagnostics Demo** — structured logs, error states, troubleshooting flows, and diagnostic information useful for support teams.
+3. **Modern Android Demo** — Kotlin, MVVM, Jetpack, Retrofit, Room, testing, and clean project organization.
+
+These demos will be clearly labeled as portfolio projects and will not represent employer-owned applications.
+
+---
+
 ## 🎓 Education
 
 **Bachelor of Engineering — Computer Engineering**  
@@ -171,7 +194,5 @@ B. H. Gardi College of Engineering & Technology, Rajkot, Gujarat
 - Email: neha.khunt07@gmail.com
 
 ---
-
-> Note: Professional project pages document my experience and responsibilities. Original employer source code is not included unless it is publicly owned and safe to share.
 
 ⭐ Thanks for visiting my portfolio!
