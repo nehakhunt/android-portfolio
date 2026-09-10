@@ -1,4 +1,4 @@
-# Hi, I'm Neha Khunt 👋
+# Neha Khunt — Android Portfolio
 
 ## Android Developer | Java & Kotlin | Firebase | REST APIs | Application Support
 
@@ -7,6 +7,36 @@ I’m an Android Developer with professional experience building, maintaining, t
 My experience includes Android SDK, Jetpack components, MVVM/MVC architecture, REST APIs, Firebase, Google Maps, location services, push notifications, local storage, analytics, debugging, release support, and production issue resolution.
 
 I’m currently based in Canada and building on my Android background while expanding my skills in application analytics, application support, and application analysis.
+
+---
+
+## 🗂️ Portfolio Structure
+
+```text
+android-portfolio/
+├── README.md
+├── android/
+│   ├── architecture.md
+│   ├── kotlin-java.md
+│   └── testing-and-debugging.md
+├── projects/
+│   ├── my-folder-secure-app/README.md
+│   ├── incoming-call-lock/README.md
+│   ├── wifi-signal-alert/README.md
+│   ├── photo-resize-compress/README.md
+│   ├── phone-configuration-checker/README.md
+│   ├── video-editor/README.md
+│   ├── all-smart-tools/README.md
+│   └── weather-forecast/README.md
+├── analytics/
+│   └── mobile-analytics.md
+├── application-support/
+│   └── troubleshooting.md
+├── learning/
+│   └── android-analytics-roadmap.md
+└── resume/
+    └── README.md
+```
 
 ---
 
@@ -97,47 +127,34 @@ Working in a fast-paced customer-facing environment while continuing professiona
 
 ## 📱 Featured Projects
 
-### My Folder: Safe Secure Hidden App
-Security-focused Android application for securely storing and managing images, videos, audio, contacts, and documents.
+Detailed case studies are organized under `projects/`.
 
-**Highlights:** multiple lock mechanisms, app icon masking, app locking, hide/unhide functionality, recycle bin, storage cleaner, shake-to-lock, and dynamic app icon/name changes.
-
-**Technologies:** Kotlin, Android SDK, Room, Firebase, Jetpack Components.
-
-### Incoming Call Lock App
-Android application for protecting the incoming call screen with pattern, PIN, password, fingerprint, and swipe security methods.
-
-### WiFi Refresh & Signal Alert App
-Utility application for WiFi/network monitoring, signal alerts, network information, and usage reporting.
-
-### Photo Resize: Compress, Crop App
-Image utility application supporting compression, resizing, cropping, format conversion, batch processing, preview, and sharing.
-
-### Phone Configuration Checker App
-Device diagnostics application covering hardware/software information and multiple real-time device tests.
-
-### Video Editor: Watermark Remove App
-Media utility application with video trimming, cropping, compression, speed adjustment, audio extraction, filters, and watermark-related functionality.
-
-### All Smart Tools — Team Project
-Multifunctional utility application containing daily-use tools, sensor-based features, QR/barcode scanning, image compression, and audio recording.
-
-### Weather Forecast Alerts App
-Weather application supporting current and forecast information, GPS location, customizable widgets, weather alerts, and configurable measurement units.
+- [My Folder: Safe Secure Hidden App](projects/my-folder-secure-app/README.md)
+- [Incoming Call Lock](projects/incoming-call-lock/README.md)
+- [WiFi Refresh & Signal Alert](projects/wifi-signal-alert/README.md)
+- [Photo Resize: Compress, Crop](projects/photo-resize-compress/README.md)
+- [Phone Configuration Checker](projects/phone-configuration-checker/README.md)
+- [Video Editor: Watermark Remove](projects/video-editor/README.md)
+- [All Smart Tools](projects/all-smart-tools/README.md)
+- [Weather Forecast Alerts](projects/weather-forecast/README.md)
 
 ---
 
-## 📚 Current Learning Focus
+## 📊 Mobile Analytics
 
-- Modern Android development
-- Firebase Analytics
-- Google Tag Manager
-- Adobe Analytics
-- Behavioral event tracking
-- Application troubleshooting and support
-- Application monitoring and incident analysis
+See [`analytics/mobile-analytics.md`](analytics/mobile-analytics.md) for my portfolio work around Firebase Analytics, Google Tag Manager, event tracking, data-layer concepts, and behavioral tracking.
 
----
+## 🐞 Application Support
+
+See [`application-support/troubleshooting.md`](application-support/troubleshooting.md) for my application troubleshooting, crash investigation, log analysis, issue triage, and production-support approach.
+
+## 🧪 Android Testing & Debugging
+
+See [`android/testing-and-debugging.md`](android/testing-and-debugging.md) for testing and debugging practices.
+
+## 📚 Learning Roadmap
+
+See [`learning/android-analytics-roadmap.md`](learning/android-analytics-roadmap.md) for the skills I am continuing to develop in Android and mobile analytics.
 
 ## 🎓 Education
 
@@ -154,5 +171,7 @@ B. H. Gardi College of Engineering & Technology, Rajkot, Gujarat
 - Email: neha.khunt07@gmail.com
 
 ---
+
+> Note: Professional project pages document my experience and responsibilities. Original employer source code is not included unless it is publicly owned and safe to share.
 
 ⭐ Thanks for visiting my portfolio!
