@@ -127,24 +127,6 @@ Weather application supporting current and forecast information, GPS location, c
 
 ---
 
-## 🧪 Portfolio Demonstrations
-
-This portfolio also includes demonstration projects and documentation designed to showcase technologies and skills relevant to current Android and application-support roles.
-
-- REST API + MVVM
-- Android Location Services
-- Firebase / FCM
-- Room Database
-- Android Analytics & Behavioral Tracking
-- Android UI Components
-- Android Testing
-- Application Support & Troubleshooting
-- Financial Dashboard Concepts
-
-> Portfolio demonstrations are clearly identified as demos/learning projects and are not presented as proprietary production code from previous employers.
-
----
-
 ## 📚 Current Learning Focus
 
 - Modern Android development
@@ -165,11 +147,11 @@ B. H. Gardi College of Engineering & Technology, Rajkot, Gujarat
 
 ---
 
-## 📫 Connect
+## 📫 Connect with me
 
 - GitHub: https://github.com/nehakhunt
-- LinkedIn: Add your LinkedIn profile here
-- Email: Add your preferred professional email here
+- LinkedIn: https://www.linkedin.com/in/neha-khunt
+- Email: neha.khunt07@gmail.com
 
 ---
 
