@@ -154,12 +154,6 @@ The most notable project is **My Folder: Safe Secure Hidden App**, a secure file
 - Collaborated with designers, product managers, QA, and development teams.
 - Participated in code reviews and supported application quality and stability.
 
-### Food Service — Costco Wholesale
-**Waterloo, Ontario, Canada | Nov 2024 – Present**
-
-Working in a fast-paced customer-facing environment while continuing professional development and pursuing opportunities in Android development, application support, and application analysis.
-
----
 
 ## 📱 Featured Professional Projects
 
