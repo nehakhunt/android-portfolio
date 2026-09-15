@@ -1,23 +1,5 @@
 # Android Testing Demo
 
-**Step 7 — Android Testing**
+**Technologies:** Kotlin, JUnit 4, Mockito, Espresso, AndroidX Test, ViewModel-ready architecture.
 
-Portfolio demonstration of testing approaches used to improve Android application quality and reduce production issues.
-
-## Planned coverage
-- JUnit unit tests
-- Mockito-based mocking
-- ViewModel tests
-- Repository tests
-- Espresso UI tests
-- Robolectric tests
-- Validation and edge-case testing
-
-## Demonstrates
-- Testable application design
-- Unit vs. UI testing decisions
-- Mocking dependencies
-- Regression prevention
-- Debugging failures from test results
-
-> Portfolio demonstration only. No proprietary employer code is included.
+Includes a runnable validation screen plus unit tests covering valid, invalid, and edge-case password inputs.
