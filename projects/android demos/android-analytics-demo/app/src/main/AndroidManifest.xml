@@ -5,6 +5,9 @@
         android:label="Analytics Demo"
         android:supportsRtl="true">
         <activity
+            android:name=".FeatureActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
