@@ -1,20 +1,5 @@
-# Android Firebase Demo
+# Firebase Android Demo
 
-**Step 4 — Firebase Integration**
+Runnable portfolio project demonstrating Firebase Analytics, Crashlytics and the Firebase Cloud Messaging dependency. Add your own `app/google-services.json` locally to connect a Firebase project; credentials are intentionally not committed.
 
-Portfolio demonstration of Firebase capabilities commonly used in Android applications.
-
-## Planned areas
-- Firebase Analytics
-- Firebase Crashlytics
-- Firebase Cloud Messaging (FCM)
-- Error and crash investigation
-- Notification handling
-
-## Demonstrates
-- Analytics event instrumentation
-- Crash reporting concepts
-- Push notification flows
-- Troubleshooting Firebase-related issues
-
-> Portfolio demonstration only. No private Firebase credentials or proprietary code should be committed.
+**Technologies:** Kotlin, Android SDK, Firebase Analytics, Crashlytics, FCM, Gradle Kotlin DSL.
