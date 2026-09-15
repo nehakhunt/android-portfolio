@@ -23,5 +23,3 @@
 - Log analysis
 - Monitoring and crash investigation
 - Technical documentation
-
-> This is a learning roadmap. Only completed courses or certifications should be added to the portfolio as completed credentials.
