@@ -12,17 +12,37 @@ class AnalyticsTracker(private val analytics: FirebaseAnalytics) {
         })
     }
 
+    fun trackSessionStarted(source: String) {
+        analytics.logEvent(AnalyticsEvent.SESSION_STARTED, Bundle().apply {
+            putString(AnalyticsEvent.PARAM_SOURCE, source)
+        })
+    }
+
+    fun trackFeatureOpened(featureName: String, source: String) {
+        analytics.logEvent(AnalyticsEvent.FEATURE_OPENED, Bundle().apply {
+            putString(AnalyticsEvent.PARAM_FEATURE, featureName)
+            putString(AnalyticsEvent.PARAM_SOURCE, source)
+        })
+    }
+
+    fun trackItemSelected(itemName: String, source: String) {
+        analytics.logEvent(AnalyticsEvent.ITEM_SELECTED, Bundle().apply {
+            putString(AnalyticsEvent.PARAM_ITEM, itemName)
+            putString(AnalyticsEvent.PARAM_SOURCE, source)
+        })
+    }
+
     fun trackAction(actionName: String, source: String) {
-        analytics.logEvent("action_completed", Bundle().apply {
-            putString("action_name", actionName)
-            putString("source", source)
+        analytics.logEvent(AnalyticsEvent.ACTION_COMPLETED, Bundle().apply {
+            putString(AnalyticsEvent.PARAM_ACTION_NAME, actionName)
+            putString(AnalyticsEvent.PARAM_SOURCE, source)
         })
     }
 
     fun trackError(errorType: String, screenName: String) {
-        analytics.logEvent("error_encountered", Bundle().apply {
-            putString("error_type", errorType)
-            putString("screen_name", screenName)
+        analytics.logEvent(AnalyticsEvent.ERROR_ENCOUNTERED, Bundle().apply {
+            putString(AnalyticsEvent.PARAM_ERROR, errorType)
+            putString(AnalyticsEvent.PARAM_SCREEN, screenName)
         })
     }
 }
