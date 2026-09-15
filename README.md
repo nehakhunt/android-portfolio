@@ -1,23 +1,18 @@
-# Neha Khunt — Android Portfolio
+# Android Portfolio
 
-## Android Developer | Java & Kotlin | Firebase | REST APIs | Application Support
+## Neha Khunt
 
-[![Android](https://img.shields.io/badge/Android-Developer-3DDC84?logo=android&logoColor=white)](https://developer.android.com/)
-[![Kotlin](https://img.shields.io/badge/Kotlin-2.0%2B-7F52FF?logo=kotlin&logoColor=white)](https://kotlinlang.org/)
-[![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?logo=openjdk&logoColor=white)](https://www.java.com/)
-[![Firebase](https://img.shields.io/badge/Firebase-Analytics%20%26%20Crashlytics-FFCA28?logo=firebase&logoColor=black)](https://firebase.google.com/)
+**Android Developer | Java & Kotlin | Firebase | REST APIs | Application Support**
 
-I’m an Android Developer with professional experience building, maintaining, testing, and supporting Android applications using Java and Kotlin.
+I’m an Android Developer with professional experience building, maintaining, testing, and supporting Android applications using Java and Kotlin. My background includes Android SDK, Jetpack, MVVM/MVC, REST APIs, Firebase, Google Maps, location services, push notifications, local storage, analytics, debugging, release support, and production issue resolution.
 
-My experience includes Android SDK, Jetpack, MVVM/MVC architecture, REST APIs, Firebase, Google Maps, location services, push notifications, local storage, analytics, debugging, release support, and production issue resolution.
-
-I’m currently based in Canada and expanding my Android background with hands-on portfolio projects focused on modern Android development, mobile analytics, testing, and application support.
+I’m currently based in Canada and continuing to strengthen my Android development skills while expanding into mobile analytics, application support, and application analysis.
 
 ---
 
 ## 🗂️ Portfolio Structure
 
-The portfolio is organized into **real-world project examples and focused Android demos**, with each project kept separate so the technologies and implementation approach are easy to review.
+The repository is organized into two main project categories: **hands-on Android demos** that contain shareable source code, and **professional projects** that document previous application experience without exposing employer-owned source code.
 
 ```text
 android-portfolio/
@@ -25,49 +20,53 @@ android-portfolio/
 │
 ├── projects/
 │   │
-│   ├── android demos/
+│   ├── android-demos/
 │   │   ├── android-analytics-demo/
 │   │   ├── android-rest-api-mvvm/
 │   │   ├── android-firebase-demo/
 │   │   ├── android-location-services/
 │   │   ├── android-testing-demo/
 │   │   ├── application-support-toolkit/
-│   │   └── my-secure-folder/
+│   │   └── secure-vault-demo/
 │   │
-│   ├── all-smart-tools/
-│   ├── incoming-call-lock/
-│   ├── my-folder-secure-app/
-│   ├── phone-configuration-checker/
-│   ├── photo-resize-compress/
-│   ├── video-editor/
-│   ├── weather-forecast/
-│   └── wifi-signal-alert/
+│   └── professional-projects/
+│       ├── my-folder-secure-app/
+│       ├── incoming-call-lock/
+│       ├── wifi-signal-alert/
+│       ├── photo-resize-compress/
+│       ├── phone-configuration-checker/
+│       ├── video-editor/
+│       ├── all-smart-tools/
+│       └── weather-forecast/
 │
 ├── android/
-│   ├── architecture.md
-│   ├── kotlin-java.md
-│   └── testing-and-debugging.md
-│
 ├── analytics/
-│   └── mobile-analytics.md
-│
 ├── application-support/
-│   └── troubleshooting.md
-│
 ├── learning/
-│   └── android-analytics-roadmap.md
-│
 └── resume/
-    └── README.md
 ```
 
-### Project organization
+### 🔧 Hands-on Android Demos
 
-**`projects/android demos/`** contains hands-on, source-code projects created specifically to demonstrate current technical skills.
+These are independent, portfolio-safe projects with source code created to demonstrate specific technical skills:
 
-**`projects/`** contains portfolio documentation for Android applications and projects from my professional experience. Employer-owned source code is not included.
+| Project | Technologies demonstrated |
+|---|---|
+| **Android Analytics Demo** | Kotlin, Firebase Analytics, event tracking, event parameters, behavioral tracking concepts |
+| **REST API + MVVM** | Kotlin, Retrofit, Coroutines, StateFlow, ViewModel, Repository, Gson, OkHttp |
+| **Firebase Demo** | Kotlin, Firebase Analytics, Crashlytics, Firebase Cloud Messaging |
+| **Location Services** | Kotlin, Fused Location Provider, runtime permissions, Android location APIs |
+| **Android Testing Demo** | Kotlin, JUnit, Mockito, Espresso, AndroidX Test |
+| **Application Support Toolkit** | Kotlin, Android SDK, HTTP diagnostics, error handling, troubleshooting workflows |
+| **Secure Vault Demo** | Kotlin, Android Keystore, AES-GCM encryption, secure local storage |
 
-**`android/`**, **`analytics/`**, and **`application-support/`** contain supporting technical documentation and development practices.
+Each demo has its own folder and README so the technology, architecture, and purpose of each project can be reviewed independently.
+
+### 💼 Professional Android Projects
+
+These projects represent applications and technical work from my professional Android development experience. The repository documents the applications, responsibilities, features, and technical areas involved, while **employer-owned or proprietary source code is not included**.
+
+The most notable project is **My Folder: Safe Secure Hidden App**, a secure file-management application involving protected media/documents, multiple locking mechanisms, storage management, recycle-bin functionality, and file-cleanup features.
 
 ---
 
@@ -81,55 +80,51 @@ android-portfolio/
 - Android Jetpack
 - MVVM / MVC
 - Material Design
-- Android lifecycle and permissions
 
 ### APIs & Services
 - REST APIs
 - Retrofit
-- OkHttp
-- Kotlin Coroutines
+- Coroutines
 - Firebase
 - Firebase Cloud Messaging (FCM)
 - Google Maps API
-- Fused Location Provider
 - Location Services
 
 ### Data & Storage
 - Room
 - SQLite
+- Realm
 - PostgreSQL
-- SharedPreferences
 - Android storage APIs
-- Android Keystore
-- AES-GCM encryption
+- SharedPreferences
 
 ### Analytics & Behavioral Tracking
 - Firebase Analytics
-- Google Tag Manager (GTM) concepts
+- Google Tag Manager concepts
 - Custom event tracking
 - Event parameters
 - Data-layer concepts
 - Behavioral tracking
 - Adobe Analytics — portfolio/learning focus
 
-### Testing, Debugging & Support
+### Testing, Debugging & Application Support
 - JUnit
 - Espresso
 - Mockito
 - Firebase Crashlytics
 - Logcat
 - Crash analysis
+- Log analysis
 - Application troubleshooting
 - Issue triage
-- Log analysis
 - Production support
+- Performance monitoring
 
 ### Development & CI/CD
 - Git
 - GitHub
 - GitLab
 - Jenkins
-- Gradle Kotlin DSL
 
 ---
 
@@ -166,52 +161,59 @@ Working in a fast-paced customer-facing environment while continuing professiona
 
 ---
 
-## 📱 Featured Android Projects
+## 📱 Featured Professional Projects
 
-### Hands-on Demo Projects
+- [My Folder: Safe Secure Hidden App](projects/professional-projects/my-folder-secure-app/README.md)
+- [Incoming Call Lock](projects/professional-projects/incoming-call-lock/README.md)
+- [WiFi Refresh & Signal Alert](projects/professional-projects/wifi-signal-alert/README.md)
+- [Photo Resize: Compress, Crop](projects/professional-projects/photo-resize-compress/README.md)
+- [Phone Configuration Checker](projects/professional-projects/phone-configuration-checker/README.md)
+- [Video Editor: Watermark Remove](projects/professional-projects/video-editor/README.md)
+- [All Smart Tools](projects/professional-projects/all-smart-tools/README.md)
+- [Weather Forecast Alerts](projects/professional-projects/weather-forecast/README.md)
 
-These projects contain source code and demonstrate specific technologies and development practices.
-
-| Project | Technologies / Focus |
-|---|---|
-| [Android Analytics Demo](projects/android%20demos/android-analytics-demo/) | Kotlin, Firebase Analytics, event tracking, behavioral analytics |
-| [REST API + MVVM](projects/android%20demos/android-rest-api-mvvm/) | Kotlin, Retrofit, Coroutines, StateFlow, ViewModel, Repository, Gson, OkHttp |
-| [Firebase Demo](projects/android%20demos/android-firebase-demo/) | Kotlin, Firebase Analytics, Crashlytics, FCM |
-| [Location Services Demo](projects/android%20demos/android-location-services/) | Kotlin, Fused Location Provider, runtime permissions, Google Maps SDK |
-| [Android Testing Demo](projects/android%20demos/android-testing-demo/) | Kotlin, JUnit, Mockito, Espresso, AndroidX Test |
-| [Application Support Toolkit](projects/android%20demos/application-support-toolkit/) | Kotlin, diagnostics, HTTP troubleshooting, incident analysis |
-| [Secure Vault Demo](projects/android%20demos/my-secure-folder/) | Kotlin, Android Keystore, AES-GCM, secure local storage |
-
-### Professional / Portfolio Applications
-
-- [My Folder: Safe Secure Hidden App](projects/my-folder-secure-app/README.md)
-- [Incoming Call Lock](projects/incoming-call-lock/README.md)
-- [WiFi Refresh & Signal Alert](projects/wifi-signal-alert/README.md)
-- [Photo Resize: Compress, Crop](projects/photo-resize-compress/README.md)
-- [Phone Configuration Checker](projects/phone-configuration-checker/README.md)
-- [Video Editor: Watermark Remove](projects/video-editor/README.md)
-- [All Smart Tools](projects/all-smart-tools/README.md)
-- [Weather Forecast Alerts](projects/weather-forecast/README.md)
-
-> **Portfolio note:** Professional project pages describe my experience and application functionality. Employer-owned source code and proprietary assets are intentionally not included. The secure-vault demo is an independently created portfolio project inspired by secure file-management concepts, not proprietary application source code.
+> **Portfolio note:** Professional project pages describe previous work and application experience. Employer-owned source code is intentionally not included.
 
 ---
 
-## 📊 Mobile Analytics
+## 🧪 Hands-on Technical Demonstrations
 
-See [`analytics/mobile-analytics.md`](analytics/mobile-analytics.md) for work and learning around Firebase Analytics, Google Tag Manager concepts, event tracking, data-layer concepts, and behavioral tracking.
+### 📊 Mobile Analytics
+See [`projects/android-demos/android-analytics-demo/README.md`](projects/android-demos/android-analytics-demo/README.md) for Firebase Analytics, custom events, parameters, screen tracking, and behavioral tracking concepts.
 
-## 🐞 Application Support
+### 🌐 REST APIs & MVVM
+See [`projects/android-demos/android-rest-api-mvvm/README.md`](projects/android-demos/android-rest-api-mvvm/README.md) for Retrofit, Coroutines, StateFlow, ViewModel, Repository, and API-driven Android architecture.
 
-See [`application-support/troubleshooting.md`](application-support/troubleshooting.md) for application troubleshooting, crash investigation, log analysis, issue triage, and production-support practices.
+### 🔥 Firebase
+See [`projects/android-demos/android-firebase-demo/README.md`](projects/android-demos/android-firebase-demo/README.md) for Firebase Analytics, Crashlytics, and FCM concepts.
 
-## 🧪 Android Testing & Debugging
+### 📍 Location Services
+See [`projects/android-demos/android-location-services/README.md`](projects/android-demos/android-location-services/README.md) for location permissions and the Fused Location Provider.
 
-See [`android/testing-and-debugging.md`](android/testing-and-debugging.md) for testing, debugging, and application-quality practices.
+### 🧪 Testing
+See [`projects/android-demos/android-testing-demo/README.md`](projects/android-demos/android-testing-demo/README.md) for JUnit, Mockito, Espresso, and AndroidX testing.
 
-## 📚 Learning & Development
+### 🛠️ Application Support
+See [`projects/android-demos/application-support-toolkit/README.md`](projects/android-demos/application-support-toolkit/README.md) for diagnostic workflows, HTTP troubleshooting, structured incident thinking, and application-support concepts.
 
-See [`learning/android-analytics-roadmap.md`](learning/android-analytics-roadmap.md) for the skills I am continuing to develop in Android development and mobile analytics.
+### 🔐 Secure Storage
+See [`projects/android-demos/secure-vault-demo/README.md`](projects/android-demos/secure-vault-demo/README.md) for Android Keystore, AES-GCM encryption, and secure local storage.
+
+> **Demo note:** The hands-on demos are independently created portfolio projects. They are not representations of employer-owned source code or production systems.
+
+---
+
+## 📚 Learning Focus
+
+I am continuing to build practical skills in:
+
+- Mobile application analytics
+- Firebase Analytics
+- Google Tag Manager concepts
+- Behavioral and event tracking
+- Application support and troubleshooting
+- Modern Android architecture
+- Testing and application quality
 
 ---
 
