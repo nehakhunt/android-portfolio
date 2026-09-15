@@ -1,29 +1,7 @@
-# My Secure Folder
+# My Secure Folder — Portfolio Demo
 
-**Step 8 — Flagship Android Project**
+A newly created, portfolio-safe secure-vault demonstration inspired by the technical themes of my previous Android secure file-management application. It does **not** reproduce proprietary source code.
 
-This portfolio section documents my previous Android application experience with a secure/private file-management application.
+**Technologies:** Kotlin, Android Keystore, AES-GCM encryption, SharedPreferences, Android SDK, secure local storage patterns.
 
-## Application concepts
-- Private image, video, audio, and document management
-- App locking and multiple lock methods
-- Storage and file handling
-- Recycle bin concepts
-- Duplicate-file cleanup
-- Large-file cleanup
-- Android permissions and storage APIs
-- Production issue troubleshooting
-
-## Portfolio approach
-
-This repository is intended to document the project, technical responsibilities, features, and lessons learned from my Android development experience.
-
-If demonstration code is added, it will be newly created portfolio code and will not reproduce proprietary source code from a previous employer.
-
-## Suggested documentation
-- `docs/features.md` — feature overview
-- `docs/architecture.md` — architecture and technical decisions
-- `docs/troubleshooting.md` — example debugging scenarios
-- `screenshots/` — portfolio-safe screenshots when available
-
-> Do not commit proprietary source code, private company assets, signing keys, credentials, tokens, or user data.
+The demo encrypts a private note before persistence and decrypts it only through the Android Keystore-backed key. Production versions can extend this foundation with Storage Access Framework, MediaStore, biometric authentication, recycle-bin metadata, duplicate-file detection and large-file analysis.
