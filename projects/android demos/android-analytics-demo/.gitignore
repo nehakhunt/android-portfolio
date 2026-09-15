@@ -1,0 +1,13 @@
+# Android build output
+.gradle/
+build/
+app/build/
+local.properties
+
+# Firebase / Google services configuration
+app/google-services.json
+
+# Android Studio
+.idea/
+*.iml
+.DS_Store
